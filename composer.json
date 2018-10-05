@@ -1,0 +1,25 @@
+{
+    "name": "novam-modules/reporter",
+    "description": "",
+    "authors": [
+        {
+            "name": "Hilkiah Makemo",
+            "email": "hilmak01@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Admin\\Reporter\\Providers\\ReporterServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Admin\\Reporter\\": ""
+        }
+    }
+}
